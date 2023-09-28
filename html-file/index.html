@@ -268,9 +268,9 @@
 
 
       <!-- navbar -->
-      <nav class="p-8 flex">
+      <nav class="mt-10 flex lg:justify-between">
             <!-- logo  -->
-            <div >
+            <div  >
               <svg version="1.1" x="0px" y="0px" width="175.748px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
                 <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
@@ -346,14 +346,14 @@
                 </div>
               </div>
             <!-- Searchbar -->
-            <div>
-              <div class="join border-solid border-yellow-400 border-2 rounded-r-full ">
-                <div>
-                  <div class="remove-br">
-                    <input class="input input-bordered join-item" placeholder="Search"/>
+            <div class="border-solid border-yellow-400 border-2 rounded-full">
+              <div class="join  remove-br  border-solid border-yellow-400 border-2 rounded-full  ">
+                <div class=" ">
+                  <div class="lg:w-[420px] ">
+                    <input class="input  join-item" placeholder="Search for products"/>
                   </div>
                 </div>
-                <select class="select select-bordered join-item remove-br">
+                <select class="select join-item remove-br">
                   <option >All Categories</option>
                   <option>One</option>
                   <option>Two</option>
@@ -368,8 +368,14 @@
             </div>
 
             <!-- Icons -->
-            <div>
-
+            <div class=" flex items-center space-x-16">
+              <i class="fa-solid fa-repeat text-2xl"></i>
+              <i class="fa-regular fa-heart text-2xl"></i>
+              <div class="indicator">
+                <span class="indicator-item badge badge-secondary ">99+</span> 
+                <button><i class="fa-solid fa-bag-shopping text-2xl"></i></button>
+              </div>
+              <p class="text-2xl font-bold">$1785.00</p>
             </div>
       </nav>
  
