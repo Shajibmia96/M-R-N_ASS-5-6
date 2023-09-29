@@ -13,3 +13,8 @@ border: none;
 input:focus{
     outline: none;
 }
+.main-bg-1{
+    background-image: url(../images/bg-1/img-bg-1.jpg);
+    background-repeat: no-repeat;
+    
+}
