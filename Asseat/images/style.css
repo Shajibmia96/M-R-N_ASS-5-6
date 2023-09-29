@@ -6,7 +6,10 @@
 .font-family{
     font-family: 'Open Sans', sans-serif;
 }
-.remove-br:hover{
+.remove-br:focus{
 border: none;
 
+}
+input:focus{
+    outline: none;
 }
