@@ -6,13 +6,9 @@
 .font-family{
     font-family: 'Open Sans', sans-serif;
 }
-.remove-br:focus{
-border: none;
 
-}
-input:focus{
-    outline: none;
-}
+
+
 .main-bg-1{
     background-image: url(../images/bg-1/img-bg-1.jpg);
     background-repeat: no-repeat;
@@ -24,6 +20,31 @@ input:focus{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.card-number:hover .pricestag{
+    opacity: 1;
+    
+}
+
+.anim-section{
+    opacity: 0;
+    animation:slideBottom 3s ease-in-out forwards ;
+    animation-delay: .7s;
+
+}
+
+@keyframes slideBottom{
+    0%{
+        transform: translateY (-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
 
 
 
